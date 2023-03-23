@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+    
+    
+}
+/* section head */
+.head-section{
+    border-bottom: 1.5px solid #f5f1f1 ;
+    background-color: #fefcfc;
+}
+/* end  */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    
+}
+
+/* logo */
+.main-nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;   
+}
+
+.main-menu .logo i{
+    padding-right: 20px;
+}
+/* logo end  */
+
+/* links */
+.main-nav ul{
+    display: flex; 
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.main-nav ul li{
+    padding: 0 15px;
+    list-style: none;
+    
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #262626;
+    padding-bottom: 3px;
+    
+}
+.main-nav .right-menu  li{
+    padding: 0 0 0 10px ;
+}
+/* links end */
+/* button */
+.button.light{
+    padding: 7px 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+.button.blue{
+    padding: 7px 10px;
+    background-color: #865DFF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* button end*/
+
+/* showcase */
+.showcase{
+    height: 600px;
+    position: relative;
+    
+    
+}
+.no-map{
+    height: 600px;
+    width: 50%;
+    padding: 70px 150px 70px 170px ;
+    background-color: #f9f7f7;
+    
+}
+.no-map p{
+    padding-top: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: small;
+}
+.no-map > h1{
+    font-weight:800;
+    padding-right: 30px;
+}
+
+.map{
+    position: absolute;
+    top:0;
+    left: 50%;
+    height: 600px;
+    width: 50%;
+    background-image: url(../images/map\ 1.jpg);
+    background-size: cover;
+    background-position:  center right;
+    background-repeat: no-repeat;
+    background-color: #fbf8f8;
+    border: 1px solid transparent;
+    opacity: 0.2; 
+}
+
+.count{
+    margin-top: 40px;
+    margin-right: 50px;
+    display: inline-block;
+    padding-left: 20px;
+    border-left: 2px solid #f1eded ;
+    color: #865DFF;
+    font-size: large;
+    font-weight: 700;   
+}
+.count h6{
+    color: #a39c9c;
+}
+
+/* small nav */
+.small-nav{
+    background-color: white;
+    margin-top: 50px;
+    display:inline-block
+    
+}
+.small-nav ul{
+    list-style: none;
+    display:flex;
+    
+}
+.small-nav li{
+    padding: 10px 20px 10px;
+    
+}
+.small-nav li:hover{
+    border-bottom: 2px solid #865DFF;
+}
+
+
+
+
+
+
+
+
+
+
