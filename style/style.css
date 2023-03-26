@@ -84,7 +84,7 @@ a{
 /* showcase */
 .showcase{
     height: 600px;
-    position: relative;
+    display: flex;
     
     
 }
@@ -108,18 +108,24 @@ a{
 }
 
 .map{
-    position: absolute;
-    top:0;
-    left: 50%;
+    position: relative ;
     height: 600px;
     width: 50%;
+    
+    z-index: -1;
+}
+.map::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(../images/map\ 1.jpg);
     background-size: cover;
     background-position:  center right;
     background-repeat: no-repeat;
-    background-color: #fbf8f8;
-    border: 1px solid transparent;
-    opacity: 0.2; 
+    opacity: 0.3;
     z-index: -1;
 }
 
@@ -131,7 +137,7 @@ a{
     border-left: 2px solid #f1eded ;
     color: #865DFF;
     font-size: large;
-    font-weight: 700;   
+    font-weight: 700;  
 }
 .count h6{
     color: #a39c9c;
@@ -182,6 +188,7 @@ a{
 .card{
     width: 300px;
     height: 400px;
+    z-index: 2;
     
     
 }
