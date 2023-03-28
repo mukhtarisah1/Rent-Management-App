@@ -279,7 +279,42 @@ padding: 10px;
     font-weight: 500;
 }
 
-/*  */
+/* virtual tour start */
+.inner-div{
+    position: relative;
+}
+.virtual-tour .inner-div{
+    display: flex;
+    padding: 70px 170px ;
+}
+
+.virtual-tour .img-div{
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+    border-radius: 5px;
+    background-image: url(../images/pexels-binyamin-mellish-1396122.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+.virtual-tour .vr-div{
+    display: inline-block;
+    width: 50%;
+    padding: 10% 2% 10% 8%
+}
+.vr-div  p{
+    padding: 10px 0 10px 0;
+}
+
+.vr-div  .dark-text{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.vr-div .grey-text{
+    color: #636161;
+    font-weight: 600;
+}
+
 
 
 
