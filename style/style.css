@@ -314,8 +314,27 @@ padding: 10px;
     color: #636161;
     font-weight: 600;
 }
-
-
+.vr-div > button{
+    margin-top: 20px;
+}
+.vr-div .choice{
+    display: flex;
+    padding: 10px;
+    background-color: #faf8f8;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    font-weight: 500;
+    color: #636161;
+}
+.choice > .for-tenants{
+    padding: 10px;
+    background-color: #fff;
+    color: #865DFF;
+    border-radius: 5px;
+}
 
 
 
