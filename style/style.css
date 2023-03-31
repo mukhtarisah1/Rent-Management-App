@@ -207,7 +207,7 @@ padding: 10px;
     padding: 10px 0 0 0;
     font-weight: 700;
 }
-.card-text .p-small{
+ .p-small{
     font-weight: 600;
     font-size: small;
     color: #a39c9c;
@@ -279,8 +279,12 @@ padding: 10px;
     font-weight: 500;
 }
 
-/* virtual tour start */
+
 .inner-div{
+    position: relative;
+}
+/* virtual tour start */
+.virtual-tour{
     position: relative;
 }
 .virtual-tour .inner-div{
@@ -297,6 +301,7 @@ padding: 10px;
     background-size: cover;
     background-position: center left;
 }
+/* start of second right content */
 .virtual-tour .vr-div{
     display: inline-block;
     width: 50%;
@@ -320,7 +325,7 @@ padding: 10px;
 .vr-div .choice{
     display: flex;
     padding: 10px;
-    background-color: #faf8f8;
+    background-color: #f5f4f4;
     margin: 10px 0 20px 0;
     border-radius: 5px;
     justify-content: space-around;
@@ -334,6 +339,32 @@ padding: 10px;
     background-color: #fff;
     color: #865DFF;
     border-radius: 5px;
+}
+/* end of second right text content */
+/* virtual home tour divs */
+.virtual-home-tour{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border:1px solid #f1eded;
+    box-shadow: inset;
+    z-index: 3;position: absolute;
+    top: 15%;
+    left: 3%;
+    padding: 15px;
+    box-sizing: border-box;
+
+    
+}
+.virtual-home-tour > i{
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.virtual-home-tour > div{
+    
 }
 
 
