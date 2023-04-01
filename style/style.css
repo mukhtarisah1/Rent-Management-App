@@ -381,6 +381,15 @@ padding: 10px;
     
     font-weight: 700;
 }
+.best-deals i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #865DFF;
+    color: #f5f1f1;
+    position: absolute;
+    right: 10%;
+    top: -25%;
+}
 
 
 
