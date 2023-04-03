@@ -64,7 +64,7 @@ a{
 /* button */
 .button.light{
     cursor: pointer;
-    padding: 7px 10px;
+    padding: 7px 20px;
     border-color: transparent;
     border-radius: 5px;
     font-weight: 700;
@@ -72,12 +72,15 @@ a{
 }
 .button.blue{
     cursor: pointer;
-    padding: 7px 10px;
+    padding: 7px 20px;
     background-color: #865DFF;
     color: white;
     border-color: transparent;
     border-radius: 5px;
     font-weight: 500;
+}
+.button.blue:hover{
+    background-color: #453C67;
 }
 /* button end*/
 
