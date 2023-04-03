@@ -65,9 +65,10 @@ a{
 .button.light{
     cursor: pointer;
     padding: 7px 20px;
-    border-color: transparent;
+    border: 2px solid #f9f7f7;
     border-radius: 5px;
     font-weight: 700;
+    background-color: #fff;
 
 }
 .button.blue{
