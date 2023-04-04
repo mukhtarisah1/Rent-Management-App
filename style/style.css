@@ -404,21 +404,28 @@ padding: 10px;
 .text-left{
     width: 50%;
 }
-.text-left p{
-    padding-right: 50px;
-    padding-bottom: 20px;
+.text-left .p-big{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #453C67;
+    padding:0 10% 7% 0 ;
+}
+.text-left .p-sm{
+    color: #aeadad;
+    font-weight: 600;
+    line-height: 2rem;
+    padding:0 10% 10% 0;
 }
 .home-right{
     width: 50%;
-    
+    display: flex;
+    justify-content: flex-end;
 
 }
 .home-right img{
     width: 70%;
     height: 100%;
     transform: rotate(25deg);
-    
-
 }
 
 
