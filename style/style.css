@@ -284,9 +284,7 @@ padding: 10px;
 }
 
 
-.inner-div{
-    position: relative;
-}
+
 /* virtual tour start */
 .virtual-tour{
     position: relative;
@@ -315,11 +313,11 @@ padding: 10px;
     padding: 10px 0 10px 0;
 }
 
-.vr-div  .dark-text{
+  .dark-text{
     font-size: 2rem;
     font-weight: 700;
 }
-.vr-div .grey-text{
+ .grey-text{
     color: #636161;
     font-weight: 600;
 }
@@ -357,7 +355,7 @@ padding: 10px;
     z-index: 3;
     position: absolute;
     top: 15%;
-    left: 3%;
+    left: 6.5%;
     padding: 15px;
     box-sizing: border-box;
 
@@ -395,6 +393,27 @@ padding: 10px;
     top: -30%;
 }
 
+.new-home{
+    margin: 8% 12.2%;
+    background-color: #f5f1f1;
+    padding: 5% 0 5% 5%;
+    display: flex;
+    box-sizing: border-box;
+}
+.text-left{
+    width: 50%;
+}
+.text-left p{
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.home-right{
+    width: 50%;
+    background-image: url(../images/20945170-PhotoRoom.png-PhotoRoom.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
 
 
 
