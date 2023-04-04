@@ -396,8 +396,9 @@ padding: 10px;
 .new-home{
     margin: 8% 12.2%;
     background-color: #f5f1f1;
-    padding: 5%;
+    padding: 5% 0 5% 5%;
     display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 .text-left{
@@ -409,12 +410,15 @@ padding: 10px;
 }
 .home-right{
     width: 50%;
+    
+
 }
 .home-right img{
-    width: 100%;
-    object-position: top;
-    background-size: cover;
-    transform: rotate(45);
+    width: 70%;
+    height: 100%;
+    transform: rotate(25deg);
+    
+
 }
 
 
