@@ -414,7 +414,7 @@ padding: 10px;
     color: #aeadad;
     font-weight: 600;
     line-height: 2rem;
-    padding:0 10% 10% 0;
+    padding:0 10% 5% 0;
 }
 .home-right{
     width: 50%;
@@ -427,7 +427,20 @@ padding: 10px;
     height: 100%;
     transform: rotate(25deg);
 }
-
+.new-home-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.big-icons{
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.icon-div{
+    display:block ;
+    box-sizing: border-box;
+}
 
 
 
