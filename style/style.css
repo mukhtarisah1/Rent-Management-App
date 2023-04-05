@@ -432,7 +432,11 @@ padding: 10px;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
-    text-align: cente;
+    text-align: center;
+    box-sizing: border-box;
+}
+.icons-grid{
+    
 }
 
 
