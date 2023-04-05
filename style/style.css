@@ -436,6 +436,16 @@ padding: 10px;
     box-sizing: border-box;
 }
 .icons-grid{
+    box-sizing: border-box;
+    padding-top:10px;
+}
+.big-icons{
+    padding: 10px;
+}
+.icons-grid i{
+    display: inline;
+    border-radius: 100%;
+   
     
 }
 
