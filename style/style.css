@@ -428,18 +428,11 @@ padding: 10px;
     transform: rotate(25deg);
 }
 .new-home-icons{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
-}
-.big-icons{
-    padding: 20px;
-    border-radius: 50%;
-    
-}
-.icon-div{
-    display:block ;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: cente;
 }
 
 
