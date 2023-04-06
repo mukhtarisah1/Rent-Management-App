@@ -434,6 +434,8 @@ padding: 10px;
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
+    width: 110%;
+   
 }
 .icons-grid{
     box-sizing: border-box;
@@ -441,12 +443,16 @@ padding: 10px;
 }
 .big-icons{
     padding: 10px;
+    background-color: #ebe8f6;
+    
 }
 .icons-grid i{
     display: inline;
     border-radius: 100%;
-   
-    
+ 
+}
+.icons-grid p{
+    margin: 20px 0 10px 0;
 }
 
 
