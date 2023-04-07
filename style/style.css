@@ -394,12 +394,13 @@ padding: 10px;
 }
 
 .new-home{
-    margin: 8% 12.2%;
+    margin: 5% 12.2%;
     background-color: #f5f1f1;
     padding: 5% 0 5% 5%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 .text-left{
     width: 50%;
