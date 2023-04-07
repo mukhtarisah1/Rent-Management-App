@@ -444,16 +444,19 @@ padding: 10px;
 }
 .big-icons{
     padding: 10px;
-    background-color: #ebe8f6;
+    background-color: #ece9f6;
     
 }
 .icons-grid i{
     display: inline;
-    border-radius: 100%;
+    border-radius: 50%;
  
 }
 .icons-grid p{
     margin: 20px 0 10px 0;
+}
+.small-icons{
+    padding: 2px;
 }
 
 
