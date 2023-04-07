@@ -441,22 +441,34 @@ padding: 10px;
 .icons-grid{
     box-sizing: border-box;
     padding-top:10px;
+    position: relative;
 }
 .big-icons{
-    padding: 10px;
-    background-color: #ece9f6;
+    padding: 13px;
+    background-color: #d3c9f1;
+    color:#262626;
+    
     
 }
 .icons-grid i{
     display: inline;
     border-radius: 50%;
+    
  
 }
 .icons-grid p{
     margin: 20px 0 10px 0;
 }
 .small-icons{
-    padding: 2px;
+    padding: 3px;
+    background-color: #865DFF;
+    color: #fff;
+    position: absolute;
+    top: 17%;
+    left:55%;
+
+    
+  
 }
 
 
